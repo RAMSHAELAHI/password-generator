@@ -20,7 +20,7 @@ def generate_password(length, use_digits, use_special):
 
 
 # Streamlit UI setup
-st.title("Simple Password Generator")  # Display the app title on the web page
+st.title("Password Generator")  # Display the app title on the web page
 
 # User input: password length (slider to select length between 6 and 32 characters)
 length = st.slider("Select password length:", min_value=6, max_value=32, value=12)
@@ -37,3 +37,4 @@ if st.button("Generate Password"):
         length, use_digits, use_special
     )  # Call the password generation function
     st.write(f"Generated Password: `{password}`")  # Display the generated password
+
