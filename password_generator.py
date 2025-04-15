@@ -38,4 +38,7 @@ if st.button("Generate Password"):
     )  # Call the password generation function
     st.write(f"Generated Password: `{password}`")  # Display the generated password
 
-    st.write("Build By Ramsha Elahi")
+st.write("--------------------------------")
+
+st.write("Build By [Ramsha Elahi](https://github.com/ramsha-elahi)")
+
